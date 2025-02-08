@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/': {
-        target: "http://localhost:5080", 
+        target: "http://final-five-beryl.vercel.app", 
         changeOrigin: true
       }
     }
